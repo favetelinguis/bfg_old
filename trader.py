@@ -1,5 +1,6 @@
 import db as tables
 import datetime as dt
+from sqlalchemy import create_engine
 
 
 class BFG():
@@ -8,19 +9,16 @@ class BFG():
     config = None
 
     def start(self):
-        # TODO start an infinite loop that every second inserts a value into the database
-        # have the dash app read that part of the database every second and print in gui
+        # Must create db in the thread that is going to use it
+        engine = create_engine(self.config.SQLALCHEMY_DATABASE_URI, echo=True)
+        self.db = engine.connect()
         import time
         #while True:
         for i in range(1000):
             mbs = [{'market_id': str(i), 'start_time': dt.datetime.now()}]
             ins = tables.market_book.insert()
             self.db.execute(ins, mbs)
-            print('HERE I AM AGAIN ON MY OWN')
             time.sleep(5)
-
-    def use_db(self, db):
-        self.db = db
 
     def use_exchange(self, client):
         self.client = client
