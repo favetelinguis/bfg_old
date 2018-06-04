@@ -1,2 +1,0 @@
-FLASK_APP="bfg.py"
-FLASK_DEBUG=1

@@ -1,14 +1,9 @@
 import os
-import time
-
-import dash
 from sqlalchemy import create_engine
 import betfairlightweight
-
 from trader import BFG
 from config import config
 from db import setup_db
-from gui import GUI
 
 if __name__ == '__main__':
 
@@ -32,18 +27,4 @@ if __name__ == '__main__':
     bfg.use_config(config)
     bfg.use_db(db)
     bfg.use_agent()
-    import multiprocessing
-    p = multiprocessing.Process(target=bfg.start)
-    p.start()
-
-    # Setup dash
-    app = dash.Dash()
-    app.css.append_css({
-        "external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"
-    })
-    gui = GUI(app, db)
-    app.run_server(
-        debug=True,
-        host='0.0.0.0',
-        port=8050
-    )
+    bfg.start()
