@@ -35,12 +35,30 @@ def signal_handler(signum, frame):
 
 
 def build_orders(next_market):
+
     orders = {
-        '1:Stop   ': thaw(next_market['orders']['stop']),
-        '2:Entry  ': thaw(next_market['orders']['entry']),
-        '3:Runaway': thaw(next_market['orders']['runaway']),
+        '1:Stops   ': thaw(next_market['orders']['stop']),
+        '2:Entrys  ': thaw(next_market['orders']['entry']),
+        '3:Runaways': thaw(next_market['orders']['runaway']),
+        '4:Greenup' : thaw(next_market['orders']['runaway']),
+        '5:Runaways': thaw(next_market['orders']['runaway']),
+        '6:Runaways': thaw(next_market['orders']['runaway']),
     }
     return orders
+
+
+def build_runners(runners):
+    data = {}
+    for selectionId, runner in runners.items():
+        unmatched_back = runner['sumUnmatchedBack']
+        unmatched_lay = runner['sumUnmatchedLay']
+        r = f"Backed {runner['sumBacked']} @ {runner['avgBackPrice']}" + \
+            f" Laid {runner['sumLaid']} @ {runner['avgLayPrice']}" + \
+            f" Hedge Value {runner['hedge']}" + \
+            f" UnMatched LAY:{unmatched_lay}, BACK:{unmatched_back}" + \
+            f" Status {runner['status']}"
+        data['{:25.25}'.format(runner['runnerName'])] = r
+    return data
 
 
 def build_gui(data):
@@ -59,7 +77,7 @@ def build_gui(data):
         '4:Status       ': next_market['status'],
         '5:Inplay       ': next_market['inplay'],
         '6:Total Matched': next_market['totalMatched'],
-        '7:Orders       ': build_orders(next_market),
+        '7:Runners      ': build_runners(next_market['runners']),
         '9:Next market--': nm,
     }
     return gui
