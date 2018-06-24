@@ -1,0 +1,11 @@
+2018-06-20 11:25:42:  Market changed to Ham  20th Jun - 14:40 5f Nov Stks
+2018-06-20 11:26:10:  £ 2.00 Lay bet placed on Usain Boat at 1.8.  Entirely unmatched when it initially reached the market.   Ref: 128786671010
+2018-06-20 11:26:23:  £ 2.00 Back bet placed on I Believe In You at 4.7. Entirely unmatched when it initially reached the market.   Ref: 128786682054
+2018-06-20 11:26:33:  £ 2.00 Back bet placed on Woodside Wonder at 14.5. Entirely unmatched when it initially reached the market.   Ref: 128786689577
+2018-06-20 11:27:36:  £ 2.00 Lay bet placed on Usain Boat at 2.04. Fully matched at 2.04.  Ref: 128786735716
+2018-06-20 11:27:45:  £ 2.00 Back bet placed on I Believe In You at 3.6. Fully matched at 3.65.  Ref: 128786743027
+2018-06-20 11:28:34:  Cancelling bets 128786671010
+2018-06-20 11:28:35:  Cancelling bets 128786682054
+2018-06-20 11:28:36:  Cancelling bets 128786689577
+2018-06-20 11:29:22:  Greened up Usain Boat by Backing 2.04 at 2
+2018-06-20 11:29:25:  Greened up I Believe In You by Laying 1.97 at 3.7

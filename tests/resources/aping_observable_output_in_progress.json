@@ -1,0 +1,930 @@
+[
+  [
+    {
+      "marketId": "1.144787413",
+      "totalAvailable": null,
+      "isMarketDataDelayed": null,
+      "lastMatchTime": null,
+      "betDelay": 0,
+      "version": 2265428063,
+      "complete": true,
+      "runnersVoidable": false,
+      "totalMatched": 22957.84,
+      "status": "OPEN",
+      "bspReconciled": false,
+      "crossMatching": false,
+      "inplay": false,
+      "numberOfWinners": 1,
+      "numberOfRunners": 7,
+      "numberOfActiveRunners": 7,
+      "runners": [
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 3.55,
+                "size": 13
+              },
+              {
+                "price": 3.6,
+                "size": 373.33
+              },
+              {
+                "price": 3.65,
+                "size": 543.33
+              },
+              {
+                "price": 3.7,
+                "size": 288.25
+              },
+              {
+                "price": 3.75,
+                "size": 825.99
+              },
+              {
+                "price": 3.8,
+                "size": 280
+              },
+              {
+                "price": 3.85,
+                "size": 56.46
+              },
+              {
+                "price": 3.9,
+                "size": 26.86
+              },
+              {
+                "price": 3.95,
+                "size": 23.82
+              },
+              {
+                "price": 4,
+                "size": 20.92
+              },
+              {
+                "price": 4.1,
+                "size": 94.73
+              },
+              {
+                "price": 4.2,
+                "size": 238.6
+              },
+              {
+                "price": 4.3,
+                "size": 169.87
+              },
+              {
+                "price": 4.4,
+                "size": 95.37
+              },
+              {
+                "price": 4.5,
+                "size": 243.35
+              },
+              {
+                "price": 4.6,
+                "size": 520.01
+              },
+              {
+                "price": 4.7,
+                "size": 363.44
+              },
+              {
+                "price": 4.8,
+                "size": 508.6
+              },
+              {
+                "price": 4.9,
+                "size": 102.25
+              },
+              {
+                "price": 5,
+                "size": 71.56
+              },
+              {
+                "price": 5.1,
+                "size": 44.61
+              },
+              {
+                "price": 5.2,
+                "size": 6
+              },
+              {
+                "price": 5.3,
+                "size": 9.26
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 3.65,
+                "size": 6.4
+              },
+              {
+                "price": 3.6,
+                "size": 54.44
+              },
+              {
+                "price": 3.55,
+                "size": 2
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 3.7,
+                "size": 2.31
+              },
+              {
+                "price": 3.75,
+                "size": 99.85
+              },
+              {
+                "price": 3.8,
+                "size": 9.8
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 21.739,
+          "removalDate": null,
+          "lastPriceTraded": 3.65,
+          "handicap": 0,
+          "totalMatched": 4919.61,
+          "selectionId": 19031398
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 85,
+                "size": 7.23
+              },
+              {
+                "price": 90,
+                "size": 4.59
+              },
+              {
+                "price": 95,
+                "size": 4.15
+              },
+              {
+                "price": 120,
+                "size": 7.58
+              },
+              {
+                "price": 130,
+                "size": 0.2
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 90,
+                "size": 2.39
+              },
+              {
+                "price": 85,
+                "size": 1.25
+              },
+              {
+                "price": 80,
+                "size": 2.5
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 130,
+                "size": 4.71
+              },
+              {
+                "price": 150,
+                "size": 2.01
+              },
+              {
+                "price": 380,
+                "size": 5.07
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 1.053,
+          "removalDate": null,
+          "lastPriceTraded": 120,
+          "handicap": 0,
+          "totalMatched": 23.75,
+          "selectionId": 19243556
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 1.8,
+                "size": 76.42
+              },
+              {
+                "price": 1.81,
+                "size": 254.35
+              },
+              {
+                "price": 1.82,
+                "size": 112.62
+              },
+              {
+                "price": 1.83,
+                "size": 177.66
+              },
+              {
+                "price": 1.84,
+                "size": 305.12
+              },
+              {
+                "price": 1.85,
+                "size": 986.33
+              },
+              {
+                "price": 1.86,
+                "size": 410.77
+              },
+              {
+                "price": 1.87,
+                "size": 370.13
+              },
+              {
+                "price": 1.88,
+                "size": 584.33
+              },
+              {
+                "price": 1.89,
+                "size": 615.26
+              },
+              {
+                "price": 1.9,
+                "size": 490.94
+              },
+              {
+                "price": 1.91,
+                "size": 1155.93
+              },
+              {
+                "price": 1.92,
+                "size": 816.31
+              },
+              {
+                "price": 1.93,
+                "size": 1301.15
+              },
+              {
+                "price": 1.94,
+                "size": 1226.49
+              },
+              {
+                "price": 1.95,
+                "size": 842.61
+              },
+              {
+                "price": 1.96,
+                "size": 520.02
+              },
+              {
+                "price": 1.97,
+                "size": 390.66
+              },
+              {
+                "price": 1.98,
+                "size": 102.16
+              },
+              {
+                "price": 1.99,
+                "size": 137.94
+              },
+              {
+                "price": 2,
+                "size": 1443.6
+              },
+              {
+                "price": 2.02,
+                "size": 1325.41
+              },
+              {
+                "price": 2.04,
+                "size": 1128.83
+              },
+              {
+                "price": 2.06,
+                "size": 263.39
+              },
+              {
+                "price": 2.08,
+                "size": 237.93
+              },
+              {
+                "price": 2.1,
+                "size": 462.32
+              },
+              {
+                "price": 2.12,
+                "size": 108.26
+              },
+              {
+                "price": 2.18,
+                "size": 276.85
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 2,
+                "size": 36.5
+              },
+              {
+                "price": 1.99,
+                "size": 8
+              },
+              {
+                "price": 1.98,
+                "size": 19.84
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 2.04,
+                "size": 182.75
+              },
+              {
+                "price": 2.06,
+                "size": 42.79
+              },
+              {
+                "price": 2.08,
+                "size": 7.19
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 48.828,
+          "removalDate": null,
+          "lastPriceTraded": 2,
+          "handicap": 0,
+          "totalMatched": 16123.79,
+          "selectionId": 18484288
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 11.5,
+                "size": 2.67
+              },
+              {
+                "price": 12,
+                "size": 1.32
+              },
+              {
+                "price": 13,
+                "size": 10
+              },
+              {
+                "price": 23,
+                "size": 8.85
+              },
+              {
+                "price": 24,
+                "size": 33.66
+              },
+              {
+                "price": 25,
+                "size": 17.84
+              },
+              {
+                "price": 26,
+                "size": 107.76
+              },
+              {
+                "price": 27,
+                "size": 14.65
+              },
+              {
+                "price": 28,
+                "size": 12.05
+              },
+              {
+                "price": 29,
+                "size": 27.41
+              },
+              {
+                "price": 30,
+                "size": 11.02
+              },
+              {
+                "price": 32,
+                "size": 8.94
+              },
+              {
+                "price": 34,
+                "size": 19.11
+              },
+              {
+                "price": 36,
+                "size": 0.98
+              },
+              {
+                "price": 38,
+                "size": 1.84
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 30,
+                "size": 5.42
+              },
+              {
+                "price": 29,
+                "size": 3.27
+              },
+              {
+                "price": 28,
+                "size": 2.89
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 38,
+                "size": 3.47
+              },
+              {
+                "price": 44,
+                "size": 6.08
+              },
+              {
+                "price": 80,
+                "size": 13.5
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 4.167,
+          "removalDate": null,
+          "lastPriceTraded": 38,
+          "handicap": 0,
+          "totalMatched": 278.1,
+          "selectionId": 18729918
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 5.7,
+                "size": 1.28
+              },
+              {
+                "price": 5.8,
+                "size": 8.04
+              },
+              {
+                "price": 5.9,
+                "size": 2.68
+              },
+              {
+                "price": 6.2,
+                "size": 4.08
+              },
+              {
+                "price": 6.8,
+                "size": 4
+              },
+              {
+                "price": 7,
+                "size": 19.98
+              },
+              {
+                "price": 7.2,
+                "size": 65.17
+              },
+              {
+                "price": 7.4,
+                "size": 17.04
+              },
+              {
+                "price": 7.6,
+                "size": 29.21
+              },
+              {
+                "price": 7.8,
+                "size": 128.45
+              },
+              {
+                "price": 8,
+                "size": 199.63
+              },
+              {
+                "price": 8.2,
+                "size": 52.05
+              },
+              {
+                "price": 8.4,
+                "size": 25.51
+              },
+              {
+                "price": 8.6,
+                "size": 65.57
+              },
+              {
+                "price": 8.8,
+                "size": 21.42
+              },
+              {
+                "price": 9,
+                "size": 44.78
+              },
+              {
+                "price": 9.2,
+                "size": 27.75
+              },
+              {
+                "price": 9.4,
+                "size": 5.04
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 8.8,
+                "size": 6.6
+              },
+              {
+                "price": 8.6,
+                "size": 4.06
+              },
+              {
+                "price": 7.8,
+                "size": 23.48
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 9.4,
+                "size": 2
+              },
+              {
+                "price": 9.6,
+                "size": 6.9
+              },
+              {
+                "price": 9.8,
+                "size": 6.77
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 13.514,
+          "removalDate": null,
+          "lastPriceTraded": 8.6,
+          "handicap": 0,
+          "totalMatched": 721.68,
+          "selectionId": 19068332
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 7,
+                "size": 0.02
+              },
+              {
+                "price": 7.2,
+                "size": 3.97
+              },
+              {
+                "price": 7.4,
+                "size": 4
+              },
+              {
+                "price": 7.6,
+                "size": 10
+              },
+              {
+                "price": 8.2,
+                "size": 8.61
+              },
+              {
+                "price": 8.4,
+                "size": 21.12
+              },
+              {
+                "price": 8.6,
+                "size": 22.66
+              },
+              {
+                "price": 9,
+                "size": 24.17
+              },
+              {
+                "price": 9.2,
+                "size": 15.31
+              },
+              {
+                "price": 9.4,
+                "size": 13.65
+              },
+              {
+                "price": 9.6,
+                "size": 18.03
+              },
+              {
+                "price": 9.8,
+                "size": 64.15
+              },
+              {
+                "price": 10,
+                "size": 20.43
+              },
+              {
+                "price": 10.5,
+                "size": 229.24
+              },
+              {
+                "price": 11,
+                "size": 70.82
+              },
+              {
+                "price": 11.5,
+                "size": 252.54
+              },
+              {
+                "price": 12,
+                "size": 56.42
+              },
+              {
+                "price": 12.5,
+                "size": 11.04
+              },
+              {
+                "price": 13,
+                "size": 7.92
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 12.5,
+                "size": 1.24
+              },
+              {
+                "price": 12,
+                "size": 2.5
+              },
+              {
+                "price": 11.5,
+                "size": 9
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 13.5,
+                "size": 2.48
+              },
+              {
+                "price": 14,
+                "size": 2
+              },
+              {
+                "price": 14.5,
+                "size": 6
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 9.524,
+          "removalDate": null,
+          "lastPriceTraded": 12.5,
+          "handicap": 0,
+          "totalMatched": 854.1,
+          "selectionId": 18976883
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 38,
+                "size": 2.18
+              },
+              {
+                "price": 40,
+                "size": 1.02
+              },
+              {
+                "price": 70,
+                "size": 0.8
+              },
+              {
+                "price": 85,
+                "size": 3.65
+              },
+              {
+                "price": 90,
+                "size": 6.5
+              },
+              {
+                "price": 95,
+                "size": 3.83
+              },
+              {
+                "price": 110,
+                "size": 13.99
+              },
+              {
+                "price": 140,
+                "size": 0.16
+              },
+              {
+                "price": 150,
+                "size": 0.42
+              },
+              {
+                "price": 170,
+                "size": 3.06
+              },
+              {
+                "price": 200,
+                "size": 0.9
+              },
+              {
+                "price": 240,
+                "size": 0.3
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 95,
+                "size": 3.29
+              },
+              {
+                "price": 90,
+                "size": 2.48
+              },
+              {
+                "price": 85,
+                "size": 2.14
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 240,
+                "size": 2.18
+              },
+              {
+                "price": 250,
+                "size": 2
+              },
+              {
+                "price": 330,
+                "size": 1.18
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 1.176,
+          "removalDate": null,
+          "lastPriceTraded": 240,
+          "handicap": 0,
+          "totalMatched": 36.81,
+          "selectionId": 19159608
+        }
+      ],
+      "publishTime": 1529486887470,
+      "priceLadderDefinition": {
+        "type": "CLASSIC"
+      },
+      "keyLineDescription": null
+    }
+  ],
+  [
+    {
+      "currentOrders": [
+        {
+          "averagePriceMatched": 0.0,
+          "betId": "128786671010",
+          "bspLiability": null,
+          "handicap": 0,
+          "marketId": "1.144787413",
+          "matchedDate": null,
+          "orderType": "LIMIT",
+          "persistenceType": "LAPSE",
+          "placedDate": "2018-06-20T09:26:08.000000Z",
+          "priceSize": {
+            "price": 1.8,
+            "size": 2
+          },
+          "regulatorCode": "REG_LGA",
+          "selectionId": 18484288,
+          "side": "LAY",
+          "sizeCancelled": 0,
+          "sizeLapsed": 0,
+          "sizeMatched": 0,
+          "sizeRemaining": 2,
+          "sizeVoided": 0,
+          "status": "EXECUTABLE",
+          "customerStrategyRef": "",
+          "customerOrderRef": "stop"
+        }
+      ],
+      "moreAvailable": false
+    }
+  ],
+  [
+    {
+      "marketId": "1.144787413",
+      "marketName": "5f Nov Stks",
+      "marketStartTime": "2018-06-20T12:40:00.000Z",
+      "totalMatched": 19692.68,
+      "runners": [
+        {
+          "selectionId": 18484288,
+          "runnerName": "Usain Boat",
+          "handicap": 0.0,
+          "sortPriority": 1
+        },
+        {
+          "selectionId": 19031398,
+          "runnerName": "I Believe In You",
+          "handicap": 0.0,
+          "sortPriority": 2
+        },
+        {
+          "selectionId": 19068332,
+          "runnerName": "Woodside Wonder",
+          "handicap": 0.0,
+          "sortPriority": 3
+        },
+        {
+          "selectionId": 18976883,
+          "runnerName": "Bob The Bruce",
+          "handicap": 0.0,
+          "sortPriority": 4
+        },
+        {
+          "selectionId": 18729918,
+          "runnerName": "Cambeleza",
+          "handicap": 0.0,
+          "sortPriority": 5
+        },
+        {
+          "selectionId": 19159608,
+          "runnerName": "Lang Toun Lady",
+          "handicap": 0.0,
+          "sortPriority": 6
+        },
+        {
+          "selectionId": 19243556,
+          "runnerName": "Annies Crook",
+          "handicap": 0.0,
+          "sortPriority": 7
+        }
+      ]
+    }
+  ]
+]

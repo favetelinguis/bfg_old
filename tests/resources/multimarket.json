@@ -1,0 +1,2477 @@
+[
+  [
+    {
+      "marketId": "1.144813922",
+      "totalAvailable": null,
+      "isMarketDataDelayed": null,
+      "lastMatchTime": null,
+      "betDelay": 0,
+      "version": 2265662784,
+      "complete": true,
+      "runnersVoidable": false,
+      "totalMatched": 62340.71,
+      "status": "OPEN",
+      "bspReconciled": false,
+      "crossMatching": true,
+      "inplay": false,
+      "numberOfWinners": 1,
+      "numberOfRunners": 5,
+      "numberOfActiveRunners": 5,
+      "runners": [
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 29,
+                "size": 1.99
+              },
+              {
+                "price": 30,
+                "size": 2
+              },
+              {
+                "price": 32,
+                "size": 0.34
+              },
+              {
+                "price": 34,
+                "size": 3.52
+              },
+              {
+                "price": 36,
+                "size": 0.85
+              },
+              {
+                "price": 38,
+                "size": 1.52
+              },
+              {
+                "price": 40,
+                "size": 6.76
+              },
+              {
+                "price": 44,
+                "size": 2.06
+              },
+              {
+                "price": 50,
+                "size": 2.79
+              },
+              {
+                "price": 55,
+                "size": 1.46
+              },
+              {
+                "price": 65,
+                "size": 5.91
+              },
+              {
+                "price": 75,
+                "size": 4.96
+              },
+              {
+                "price": 80,
+                "size": 7.14
+              },
+              {
+                "price": 85,
+                "size": 0.27
+              },
+              {
+                "price": 90,
+                "size": 15.94
+              },
+              {
+                "price": 95,
+                "size": 41
+              },
+              {
+                "price": 100,
+                "size": 44.25
+              },
+              {
+                "price": 110,
+                "size": 18.49
+              },
+              {
+                "price": 120,
+                "size": 5.63
+              },
+              {
+                "price": 130,
+                "size": 11
+              },
+              {
+                "price": 140,
+                "size": 4.85
+              },
+              {
+                "price": 150,
+                "size": 14.78
+              },
+              {
+                "price": 160,
+                "size": 10.58
+              },
+              {
+                "price": 170,
+                "size": 28.4
+              },
+              {
+                "price": 180,
+                "size": 0.05
+              },
+              {
+                "price": 190,
+                "size": 10.8
+              },
+              {
+                "price": 200,
+                "size": 80.27
+              },
+              {
+                "price": 210,
+                "size": 4.49
+              },
+              {
+                "price": 220,
+                "size": 20.12
+              },
+              {
+                "price": 230,
+                "size": 3.25
+              },
+              {
+                "price": 240,
+                "size": 4.86
+              },
+              {
+                "price": 250,
+                "size": 18.09
+              },
+              {
+                "price": 260,
+                "size": 0.24
+              },
+              {
+                "price": 270,
+                "size": 3.22
+              },
+              {
+                "price": 280,
+                "size": 0.17
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 250,
+                "size": 2.54
+              },
+              {
+                "price": 220,
+                "size": 38.96
+              },
+              {
+                "price": 150,
+                "size": 3.56
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 270,
+                "size": 3.35
+              },
+              {
+                "price": 290,
+                "size": 7.94
+              },
+              {
+                "price": 400,
+                "size": 5.41
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 0.909,
+          "removalDate": null,
+          "lastPriceTraded": 250,
+          "handicap": 0,
+          "totalMatched": 382.05,
+          "selectionId": 10316470
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 9.4,
+                "size": 4
+              },
+              {
+                "price": 9.6,
+                "size": 12.88
+              },
+              {
+                "price": 10,
+                "size": 12.29
+              },
+              {
+                "price": 10.5,
+                "size": 148.5
+              },
+              {
+                "price": 11,
+                "size": 141.88
+              },
+              {
+                "price": 11.5,
+                "size": 121.18
+              },
+              {
+                "price": 12,
+                "size": 36.45
+              },
+              {
+                "price": 12.5,
+                "size": 3.14
+              },
+              {
+                "price": 13,
+                "size": 1.46
+              },
+              {
+                "price": 13.5,
+                "size": 4.6
+              },
+              {
+                "price": 16,
+                "size": 2.76
+              },
+              {
+                "price": 16.5,
+                "size": 21.23
+              },
+              {
+                "price": 17,
+                "size": 29.69
+              },
+              {
+                "price": 18,
+                "size": 10.25
+              },
+              {
+                "price": 18.5,
+                "size": 6.18
+              },
+              {
+                "price": 19,
+                "size": 1.47
+              },
+              {
+                "price": 19.5,
+                "size": 3.64
+              },
+              {
+                "price": 20,
+                "size": 12.57
+              },
+              {
+                "price": 21,
+                "size": 56.95
+              },
+              {
+                "price": 22,
+                "size": 72.72
+              },
+              {
+                "price": 23,
+                "size": 74.86
+              },
+              {
+                "price": 24,
+                "size": 103.32
+              },
+              {
+                "price": 25,
+                "size": 140.5
+              },
+              {
+                "price": 26,
+                "size": 64.88
+              },
+              {
+                "price": 27,
+                "size": 84.04
+              },
+              {
+                "price": 28,
+                "size": 39.58
+              },
+              {
+                "price": 29,
+                "size": 65.51
+              },
+              {
+                "price": 30,
+                "size": 219.72
+              },
+              {
+                "price": 32,
+                "size": 105.18
+              },
+              {
+                "price": 34,
+                "size": 87.28
+              },
+              {
+                "price": 36,
+                "size": 0.63
+              },
+              {
+                "price": 38,
+                "size": 4.14
+              },
+              {
+                "price": 40,
+                "size": 2.49
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 24,
+                "size": 7.15
+              },
+              {
+                "price": 23,
+                "size": 31.12
+              },
+              {
+                "price": 22,
+                "size": 24.47
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 25,
+                "size": 3.56
+              },
+              {
+                "price": 26,
+                "size": 44.09
+              },
+              {
+                "price": 27,
+                "size": 21.09
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 4.444,
+          "removalDate": null,
+          "lastPriceTraded": 25,
+          "handicap": 0,
+          "totalMatched": 1695.97,
+          "selectionId": 8296065
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 1.83,
+                "size": 116.52
+              },
+              {
+                "price": 1.84,
+                "size": 12
+              },
+              {
+                "price": 1.85,
+                "size": 7.31
+              },
+              {
+                "price": 1.86,
+                "size": 49.03
+              },
+              {
+                "price": 1.87,
+                "size": 20.04
+              },
+              {
+                "price": 1.88,
+                "size": 9.95
+              },
+              {
+                "price": 1.89,
+                "size": 12.04
+              },
+              {
+                "price": 1.9,
+                "size": 3.95
+              },
+              {
+                "price": 1.91,
+                "size": 65.97
+              },
+              {
+                "price": 1.92,
+                "size": 72.54
+              },
+              {
+                "price": 1.93,
+                "size": 334.12
+              },
+              {
+                "price": 1.94,
+                "size": 78.42
+              },
+              {
+                "price": 1.95,
+                "size": 21.65
+              },
+              {
+                "price": 1.96,
+                "size": 122.79
+              },
+              {
+                "price": 1.97,
+                "size": 270.46
+              },
+              {
+                "price": 1.98,
+                "size": 109.52
+              },
+              {
+                "price": 1.99,
+                "size": 25
+              },
+              {
+                "price": 2,
+                "size": 273.4
+              },
+              {
+                "price": 2.02,
+                "size": 105.74
+              },
+              {
+                "price": 2.04,
+                "size": 14.14
+              },
+              {
+                "price": 2.06,
+                "size": 77.77
+              },
+              {
+                "price": 2.08,
+                "size": 713.17
+              },
+              {
+                "price": 2.1,
+                "size": 1239.09
+              },
+              {
+                "price": 2.12,
+                "size": 2469.43
+              },
+              {
+                "price": 2.14,
+                "size": 2935.88
+              },
+              {
+                "price": 2.16,
+                "size": 4364.11
+              },
+              {
+                "price": 2.18,
+                "size": 2045.85
+              },
+              {
+                "price": 2.2,
+                "size": 3394.25
+              },
+              {
+                "price": 2.22,
+                "size": 1230.65
+              },
+              {
+                "price": 2.24,
+                "size": 3212.18
+              },
+              {
+                "price": 2.26,
+                "size": 2419.03
+              },
+              {
+                "price": 2.28,
+                "size": 2648.45
+              },
+              {
+                "price": 2.3,
+                "size": 2398.75
+              },
+              {
+                "price": 2.32,
+                "size": 986.89
+              },
+              {
+                "price": 2.34,
+                "size": 1078.98
+              },
+              {
+                "price": 2.36,
+                "size": 782.79
+              },
+              {
+                "price": 2.38,
+                "size": 242.13
+              },
+              {
+                "price": 2.4,
+                "size": 487.21
+              },
+              {
+                "price": 2.42,
+                "size": 186.61
+              },
+              {
+                "price": 2.44,
+                "size": 285.97
+              },
+              {
+                "price": 2.46,
+                "size": 416.56
+              },
+              {
+                "price": 2.48,
+                "size": 50.91
+              },
+              {
+                "price": 2.5,
+                "size": 6.38
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 2.3,
+                "size": 58.88
+              },
+              {
+                "price": 2.28,
+                "size": 68.37
+              },
+              {
+                "price": 2.26,
+                "size": 137.89
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 2.32,
+                "size": 39.7
+              },
+              {
+                "price": 2.34,
+                "size": 37.17
+              },
+              {
+                "price": 2.36,
+                "size": 24.07
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 43.312,
+          "removalDate": null,
+          "lastPriceTraded": 2.32,
+          "handicap": 0,
+          "totalMatched": 35397.63,
+          "selectionId": 9052306
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 2.74,
+                "size": 312.01
+              },
+              {
+                "price": 2.76,
+                "size": 887.33
+              },
+              {
+                "price": 2.78,
+                "size": 573.17
+              },
+              {
+                "price": 2.8,
+                "size": 1104.75
+              },
+              {
+                "price": 2.82,
+                "size": 735.83
+              },
+              {
+                "price": 2.84,
+                "size": 682.73
+              },
+              {
+                "price": 2.86,
+                "size": 488.72
+              },
+              {
+                "price": 2.88,
+                "size": 736.58
+              },
+              {
+                "price": 2.9,
+                "size": 754.37
+              },
+              {
+                "price": 2.92,
+                "size": 223.14
+              },
+              {
+                "price": 2.94,
+                "size": 363.32
+              },
+              {
+                "price": 2.96,
+                "size": 389.29
+              },
+              {
+                "price": 2.98,
+                "size": 805.56
+              },
+              {
+                "price": 3,
+                "size": 1280.27
+              },
+              {
+                "price": 3.05,
+                "size": 971.17
+              },
+              {
+                "price": 3.1,
+                "size": 1401.43
+              },
+              {
+                "price": 3.15,
+                "size": 1171.79
+              },
+              {
+                "price": 3.2,
+                "size": 381.48
+              },
+              {
+                "price": 3.25,
+                "size": 285.16
+              },
+              {
+                "price": 3.3,
+                "size": 215
+              },
+              {
+                "price": 3.35,
+                "size": 204.36
+              },
+              {
+                "price": 3.4,
+                "size": 285.4
+              },
+              {
+                "price": 3.45,
+                "size": 60.56
+              },
+              {
+                "price": 3.5,
+                "size": 201.96
+              },
+              {
+                "price": 3.55,
+                "size": 176.39
+              },
+              {
+                "price": 3.6,
+                "size": 67.87
+              },
+              {
+                "price": 3.65,
+                "size": 210.98
+              },
+              {
+                "price": 3.7,
+                "size": 387.78
+              },
+              {
+                "price": 3.75,
+                "size": 263.34
+              },
+              {
+                "price": 3.8,
+                "size": 207.86
+              },
+              {
+                "price": 3.85,
+                "size": 281
+              },
+              {
+                "price": 3.9,
+                "size": 180.73
+              },
+              {
+                "price": 3.95,
+                "size": 85.07
+              },
+              {
+                "price": 4,
+                "size": 109.04
+              },
+              {
+                "price": 4.1,
+                "size": 22.02
+              },
+              {
+                "price": 4.2,
+                "size": 31.55
+              },
+              {
+                "price": 4.3,
+                "size": 4
+              },
+              {
+                "price": 4.4,
+                "size": 3.18
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 2.74,
+                "size": 15.61
+              },
+              {
+                "price": 2.72,
+                "size": 156.97
+              },
+              {
+                "price": 2.7,
+                "size": 125.84
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 2.76,
+                "size": 21.47
+              },
+              {
+                "price": 2.78,
+                "size": 83.67
+              },
+              {
+                "price": 2.8,
+                "size": 45.41
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 35.461,
+          "removalDate": null,
+          "lastPriceTraded": 2.74,
+          "handicap": 0,
+          "totalMatched": 16546.19,
+          "selectionId": 10507985
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 5.4,
+                "size": 130.85
+              },
+              {
+                "price": 5.5,
+                "size": 602.47
+              },
+              {
+                "price": 5.6,
+                "size": 859.9
+              },
+              {
+                "price": 5.7,
+                "size": 691.04
+              },
+              {
+                "price": 5.8,
+                "size": 1065.22
+              },
+              {
+                "price": 5.9,
+                "size": 1193.44
+              },
+              {
+                "price": 6,
+                "size": 1553.08
+              },
+              {
+                "price": 6.2,
+                "size": 1152.09
+              },
+              {
+                "price": 6.4,
+                "size": 396.71
+              },
+              {
+                "price": 6.6,
+                "size": 354.72
+              },
+              {
+                "price": 6.8,
+                "size": 75.38
+              },
+              {
+                "price": 7,
+                "size": 15.91
+              },
+              {
+                "price": 7.4,
+                "size": 199.99
+              },
+              {
+                "price": 7.6,
+                "size": 18.16
+              },
+              {
+                "price": 7.8,
+                "size": 8.97
+              },
+              {
+                "price": 8.2,
+                "size": 0.94
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 6.2,
+                "size": 30.68
+              },
+              {
+                "price": 6,
+                "size": 152.04
+              },
+              {
+                "price": 5.9,
+                "size": 94.65
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 6.4,
+                "size": 26.68
+              },
+              {
+                "price": 6.6,
+                "size": 69.82
+              },
+              {
+                "price": 6.8,
+                "size": 36.19
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 15.873,
+          "removalDate": null,
+          "lastPriceTraded": 6.2,
+          "handicap": 0,
+          "totalMatched": 8318.87,
+          "selectionId": 15684283
+        }
+      ],
+      "publishTime": 1529504541104,
+      "priceLadderDefinition": {
+        "type": "CLASSIC"
+      },
+      "keyLineDescription": null
+    },
+    {
+      "marketId": "1.144787428",
+      "totalAvailable": null,
+      "isMarketDataDelayed": null,
+      "lastMatchTime": null,
+      "betDelay": 0,
+      "version": 2265663066,
+      "complete": true,
+      "runnersVoidable": false,
+      "totalMatched": 487336.71,
+      "status": "OPEN",
+      "bspReconciled": false,
+      "crossMatching": true,
+      "inplay": false,
+      "numberOfWinners": 1,
+      "numberOfRunners": 9,
+      "numberOfActiveRunners": 8,
+      "runners": [
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 5.7,
+                "size": 11.95
+              },
+              {
+                "price": 5.8,
+                "size": 1699.12
+              },
+              {
+                "price": 5.9,
+                "size": 6404.53
+              },
+              {
+                "price": 6,
+                "size": 7222.7
+              },
+              {
+                "price": 6.2,
+                "size": 2054.51
+              },
+              {
+                "price": 6.4,
+                "size": 2365.71
+              },
+              {
+                "price": 6.6,
+                "size": 4636.41
+              },
+              {
+                "price": 6.8,
+                "size": 1078.81
+              },
+              {
+                "price": 7,
+                "size": 1662.18
+              },
+              {
+                "price": 7.2,
+                "size": 1730.98
+              },
+              {
+                "price": 7.4,
+                "size": 4184.04
+              },
+              {
+                "price": 7.6,
+                "size": 6735.93
+              },
+              {
+                "price": 7.8,
+                "size": 4090.92
+              },
+              {
+                "price": 8,
+                "size": 4401.63
+              },
+              {
+                "price": 8.2,
+                "size": 2963.92
+              },
+              {
+                "price": 8.4,
+                "size": 803.88
+              },
+              {
+                "price": 8.6,
+                "size": 315.28
+              },
+              {
+                "price": 8.8,
+                "size": 123.84
+              },
+              {
+                "price": 8.93,
+                "size": 2.66
+              },
+              {
+                "price": 9,
+                "size": 4.44
+              },
+              {
+                "price": 9.2,
+                "size": 39.57
+              },
+              {
+                "price": 9.29,
+                "size": 4.35
+              },
+              {
+                "price": 9.4,
+                "size": 21.99
+              },
+              {
+                "price": 9.6,
+                "size": 76.26
+              },
+              {
+                "price": 9.64,
+                "size": 3.52
+              },
+              {
+                "price": 9.8,
+                "size": 197.16
+              },
+              {
+                "price": 10,
+                "size": 91.78
+              },
+              {
+                "price": 10.36,
+                "size": 2.04
+              },
+              {
+                "price": 10.5,
+                "size": 40
+              },
+              {
+                "price": 10.71,
+                "size": 11.99
+              },
+              {
+                "price": 11,
+                "size": 41.37
+              },
+              {
+                "price": 11.07,
+                "size": 9.91
+              },
+              {
+                "price": 11.43,
+                "size": 8.34
+              },
+              {
+                "price": 11.5,
+                "size": 26.66
+              },
+              {
+                "price": 11.79,
+                "size": 11.8
+              },
+              {
+                "price": 12,
+                "size": 26.16
+              },
+              {
+                "price": 12.14,
+                "size": 5.34
+              },
+              {
+                "price": 12.5,
+                "size": 2.74
+              },
+              {
+                "price": 13.57,
+                "size": 1.84
+              },
+              {
+                "price": 13.93,
+                "size": 14.15
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 5.9,
+                "size": 461.1
+              },
+              {
+                "price": 5.8,
+                "size": 68.77
+              },
+              {
+                "price": 5.7,
+                "size": 149.23
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 6,
+                "size": 110.77
+              },
+              {
+                "price": 6.2,
+                "size": 119.61
+              },
+              {
+                "price": 6.4,
+                "size": 40.7
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 11.799,
+          "removalDate": null,
+          "lastPriceTraded": 5.9,
+          "handicap": 0,
+          "totalMatched": 53130.41,
+          "selectionId": 13215810
+        },
+        {
+          "status": "REMOVED",
+          "ex": {
+            "tradedVolume": [],
+            "availableToBack": [],
+            "availableToLay": []
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 28.571,
+          "removalDate": "2018-06-20T07:09:01.000Z",
+          "lastPriceTraded": 2.8,
+          "handicap": 0,
+          "totalMatched": 0,
+          "selectionId": 5624096
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 5.71,
+                "size": 6.6
+              },
+              {
+                "price": 5.86,
+                "size": 18.03
+              },
+              {
+                "price": 5.9,
+                "size": 14.12
+              },
+              {
+                "price": 6,
+                "size": 1355.27
+              },
+              {
+                "price": 6.14,
+                "size": 34.47
+              },
+              {
+                "price": 6.2,
+                "size": 9097.15
+              },
+              {
+                "price": 6.29,
+                "size": 7.58
+              },
+              {
+                "price": 6.4,
+                "size": 8371.01
+              },
+              {
+                "price": 6.43,
+                "size": 55.4
+              },
+              {
+                "price": 6.57,
+                "size": 19.77
+              },
+              {
+                "price": 6.6,
+                "size": 3620.77
+              },
+              {
+                "price": 6.71,
+                "size": 11.78
+              },
+              {
+                "price": 6.8,
+                "size": 7985.24
+              },
+              {
+                "price": 7,
+                "size": 3658.45
+              },
+              {
+                "price": 7.2,
+                "size": 3359.48
+              },
+              {
+                "price": 7.4,
+                "size": 3618.56
+              },
+              {
+                "price": 7.6,
+                "size": 2998.76
+              },
+              {
+                "price": 7.8,
+                "size": 3813.29
+              },
+              {
+                "price": 8,
+                "size": 3872.78
+              },
+              {
+                "price": 8.2,
+                "size": 2532.76
+              },
+              {
+                "price": 8.4,
+                "size": 1092.43
+              },
+              {
+                "price": 8.6,
+                "size": 178.25
+              },
+              {
+                "price": 8.8,
+                "size": 52.42
+              },
+              {
+                "price": 9,
+                "size": 8
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 7.2,
+                "size": 31.25
+              },
+              {
+                "price": 7,
+                "size": 306.1
+              },
+              {
+                "price": 6.8,
+                "size": 251.94
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 7.4,
+                "size": 73.62
+              },
+              {
+                "price": 7.6,
+                "size": 51.93
+              },
+              {
+                "price": 7.8,
+                "size": 127.7
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 15.611,
+          "removalDate": null,
+          "lastPriceTraded": 7.2,
+          "handicap": 0,
+          "totalMatched": 55782.37,
+          "selectionId": 12966063
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 12.14,
+                "size": 0.1
+              },
+              {
+                "price": 26,
+                "size": 18.04
+              },
+              {
+                "price": 27,
+                "size": 204.54
+              },
+              {
+                "price": 28,
+                "size": 108.41
+              },
+              {
+                "price": 29,
+                "size": 158.77
+              },
+              {
+                "price": 30,
+                "size": 1079.19
+              },
+              {
+                "price": 32,
+                "size": 1557.71
+              },
+              {
+                "price": 34,
+                "size": 747.31
+              },
+              {
+                "price": 36,
+                "size": 498.21
+              },
+              {
+                "price": 38,
+                "size": 308.01
+              },
+              {
+                "price": 40,
+                "size": 214.23
+              },
+              {
+                "price": 42,
+                "size": 109.92
+              },
+              {
+                "price": 44,
+                "size": 70.9
+              },
+              {
+                "price": 46,
+                "size": 32.79
+              },
+              {
+                "price": 46.43,
+                "size": 0.38
+              },
+              {
+                "price": 48,
+                "size": 29.67
+              },
+              {
+                "price": 50,
+                "size": 62.31
+              },
+              {
+                "price": 55,
+                "size": 17.24
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 32,
+                "size": 56.5
+              },
+              {
+                "price": 30,
+                "size": 150.35
+              },
+              {
+                "price": 29,
+                "size": 91.75
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 34,
+                "size": 40.45
+              },
+              {
+                "price": 36,
+                "size": 21.63
+              },
+              {
+                "price": 38,
+                "size": 41.13
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 2.159,
+          "removalDate": null,
+          "lastPriceTraded": 34,
+          "handicap": 0,
+          "totalMatched": 5217.73,
+          "selectionId": 13187675
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 12.5,
+                "size": 3.52
+              },
+              {
+                "price": 13,
+                "size": 32.04
+              },
+              {
+                "price": 13.5,
+                "size": 61.73
+              },
+              {
+                "price": 14,
+                "size": 51.3
+              },
+              {
+                "price": 14.5,
+                "size": 5.92
+              },
+              {
+                "price": 15,
+                "size": 4.03
+              },
+              {
+                "price": 15.5,
+                "size": 32.79
+              },
+              {
+                "price": 16,
+                "size": 3.51
+              },
+              {
+                "price": 17.5,
+                "size": 2
+              },
+              {
+                "price": 17.86,
+                "size": 1.02
+              },
+              {
+                "price": 18,
+                "size": 58.89
+              },
+              {
+                "price": 19.5,
+                "size": 11.67
+              },
+              {
+                "price": 20,
+                "size": 10.4
+              },
+              {
+                "price": 21,
+                "size": 3.47
+              },
+              {
+                "price": 22,
+                "size": 12
+              },
+              {
+                "price": 24,
+                "size": 1.75
+              },
+              {
+                "price": 25,
+                "size": 247.78
+              },
+              {
+                "price": 26,
+                "size": 594.21
+              },
+              {
+                "price": 27,
+                "size": 923.53
+              },
+              {
+                "price": 28,
+                "size": 302.36
+              },
+              {
+                "price": 29,
+                "size": 222.78
+              },
+              {
+                "price": 30,
+                "size": 587.26
+              },
+              {
+                "price": 32,
+                "size": 1309.18
+              },
+              {
+                "price": 34,
+                "size": 534.79
+              },
+              {
+                "price": 36,
+                "size": 201.19
+              },
+              {
+                "price": 38,
+                "size": 1430.83
+              },
+              {
+                "price": 40,
+                "size": 1325.87
+              },
+              {
+                "price": 42,
+                "size": 603.89
+              },
+              {
+                "price": 44,
+                "size": 326.24
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 36,
+                "size": 43.47
+              },
+              {
+                "price": 34,
+                "size": 34.76
+              },
+              {
+                "price": 32,
+                "size": 90.52
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 38,
+                "size": 64.35
+              },
+              {
+                "price": 40,
+                "size": 8
+              },
+              {
+                "price": 42,
+                "size": 16.24
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 3.171,
+          "removalDate": null,
+          "lastPriceTraded": 38,
+          "handicap": 0,
+          "totalMatched": 8905.95,
+          "selectionId": 16117346
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 3.65,
+                "size": 11.57
+              },
+              {
+                "price": 3.7,
+                "size": 60.36
+              },
+              {
+                "price": 3.75,
+                "size": 379.28
+              },
+              {
+                "price": 3.8,
+                "size": 637.32
+              },
+              {
+                "price": 3.85,
+                "size": 2540.64
+              },
+              {
+                "price": 3.9,
+                "size": 1207.19
+              },
+              {
+                "price": 3.95,
+                "size": 893.56
+              },
+              {
+                "price": 4,
+                "size": 1520.63
+              },
+              {
+                "price": 4.1,
+                "size": 1087.23
+              },
+              {
+                "price": 4.2,
+                "size": 1049.51
+              },
+              {
+                "price": 4.3,
+                "size": 2848.77
+              },
+              {
+                "price": 4.4,
+                "size": 9919.24
+              },
+              {
+                "price": 4.5,
+                "size": 12918.41
+              },
+              {
+                "price": 4.6,
+                "size": 20901.95
+              },
+              {
+                "price": 4.7,
+                "size": 26243.51
+              },
+              {
+                "price": 4.71,
+                "size": 8
+              },
+              {
+                "price": 4.8,
+                "size": 28095.4
+              },
+              {
+                "price": 4.86,
+                "size": 5.91
+              },
+              {
+                "price": 4.9,
+                "size": 19752.83
+              },
+              {
+                "price": 5,
+                "size": 6233.06
+              },
+              {
+                "price": 5.1,
+                "size": 2230.69
+              },
+              {
+                "price": 5.14,
+                "size": 104.54
+              },
+              {
+                "price": 5.2,
+                "size": 1606.13
+              },
+              {
+                "price": 5.29,
+                "size": 20.02
+              },
+              {
+                "price": 5.3,
+                "size": 79.39
+              },
+              {
+                "price": 5.57,
+                "size": 16
+              },
+              {
+                "price": 5.6,
+                "size": 6.92
+              },
+              {
+                "price": 5.7,
+                "size": 17.43
+              },
+              {
+                "price": 5.71,
+                "size": 26.45
+              },
+              {
+                "price": 5.86,
+                "size": 3.52
+              },
+              {
+                "price": 6,
+                "size": 3.02
+              },
+              {
+                "price": 6.4,
+                "size": 4.24
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 5.1,
+                "size": 2.77
+              },
+              {
+                "price": 5,
+                "size": 90.78
+              },
+              {
+                "price": 4.9,
+                "size": 247.54
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 5.2,
+                "size": 82.5
+              },
+              {
+                "price": 5.3,
+                "size": 82.38
+              },
+              {
+                "price": 5.4,
+                "size": 145.42
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 22.989,
+          "removalDate": null,
+          "lastPriceTraded": 5.1,
+          "handicap": 0,
+          "totalMatched": 140432.72,
+          "selectionId": 13453535
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 4.7,
+                "size": 408.02
+              },
+              {
+                "price": 4.8,
+                "size": 5224.58
+              },
+              {
+                "price": 4.9,
+                "size": 10652.02
+              },
+              {
+                "price": 5,
+                "size": 10465.32
+              },
+              {
+                "price": 5.1,
+                "size": 8246.19
+              },
+              {
+                "price": 5.2,
+                "size": 2687.93
+              },
+              {
+                "price": 5.3,
+                "size": 1412.89
+              },
+              {
+                "price": 5.4,
+                "size": 2247.87
+              },
+              {
+                "price": 5.5,
+                "size": 1648.26
+              },
+              {
+                "price": 5.6,
+                "size": 877.46
+              },
+              {
+                "price": 5.7,
+                "size": 1718.78
+              },
+              {
+                "price": 5.8,
+                "size": 2399.93
+              },
+              {
+                "price": 5.86,
+                "size": 31.54
+              },
+              {
+                "price": 5.9,
+                "size": 3517.68
+              },
+              {
+                "price": 6,
+                "size": 5220.57
+              },
+              {
+                "price": 6.2,
+                "size": 9454.46
+              },
+              {
+                "price": 6.4,
+                "size": 1079.2
+              },
+              {
+                "price": 6.43,
+                "size": 36.79
+              },
+              {
+                "price": 6.57,
+                "size": 119.26
+              },
+              {
+                "price": 6.71,
+                "size": 18.93
+              },
+              {
+                "price": 6.8,
+                "size": 11.95
+              },
+              {
+                "price": 6.86,
+                "size": 110.69
+              },
+              {
+                "price": 7,
+                "size": 10.17
+              },
+              {
+                "price": 7.5,
+                "size": 18.14
+              },
+              {
+                "price": 8.21,
+                "size": 37.4
+              },
+              {
+                "price": 8.57,
+                "size": 1.28
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 5.5,
+                "size": 75.12
+              },
+              {
+                "price": 5.4,
+                "size": 208.33
+              },
+              {
+                "price": 5.3,
+                "size": 131.88
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 5.6,
+                "size": 648.23
+              },
+              {
+                "price": 5.7,
+                "size": 161.55
+              },
+              {
+                "price": 5.8,
+                "size": 110.81
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 19.145,
+          "removalDate": null,
+          "lastPriceTraded": 5.5,
+          "handicap": 0,
+          "totalMatched": 67657.31,
+          "selectionId": 13120666
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 5.14,
+                "size": 0.9
+              },
+              {
+                "price": 5.29,
+                "size": 3.09
+              },
+              {
+                "price": 6.71,
+                "size": 3.69
+              },
+              {
+                "price": 6.86,
+                "size": 8.68
+              },
+              {
+                "price": 7,
+                "size": 9.6
+              },
+              {
+                "price": 7.14,
+                "size": 5.39
+              },
+              {
+                "price": 7.5,
+                "size": 6.06
+              },
+              {
+                "price": 7.86,
+                "size": 10.13
+              },
+              {
+                "price": 8.57,
+                "size": 5.99
+              },
+              {
+                "price": 8.93,
+                "size": 9.49
+              },
+              {
+                "price": 9.29,
+                "size": 9.26
+              },
+              {
+                "price": 9.4,
+                "size": 4.23
+              },
+              {
+                "price": 9.64,
+                "size": 6.65
+              },
+              {
+                "price": 9.8,
+                "size": 5.27
+              },
+              {
+                "price": 10,
+                "size": 7.78
+              },
+              {
+                "price": 10.36,
+                "size": 13.72
+              },
+              {
+                "price": 13.5,
+                "size": 2.6
+              },
+              {
+                "price": 14.5,
+                "size": 3.99
+              },
+              {
+                "price": 15,
+                "size": 169.36
+              },
+              {
+                "price": 15.5,
+                "size": 280.17
+              },
+              {
+                "price": 16,
+                "size": 694.42
+              },
+              {
+                "price": 16.5,
+                "size": 685.35
+              },
+              {
+                "price": 17,
+                "size": 1267.32
+              },
+              {
+                "price": 17.5,
+                "size": 1073.37
+              },
+              {
+                "price": 18,
+                "size": 785.59
+              },
+              {
+                "price": 18.5,
+                "size": 494.27
+              },
+              {
+                "price": 19,
+                "size": 717.52
+              },
+              {
+                "price": 19.5,
+                "size": 581.04
+              },
+              {
+                "price": 20,
+                "size": 1459.91
+              },
+              {
+                "price": 21,
+                "size": 892.52
+              },
+              {
+                "price": 22,
+                "size": 598.17
+              },
+              {
+                "price": 23,
+                "size": 706.02
+              },
+              {
+                "price": 24,
+                "size": 1291.21
+              },
+              {
+                "price": 25,
+                "size": 1952.11
+              },
+              {
+                "price": 26,
+                "size": 1669.69
+              },
+              {
+                "price": 27,
+                "size": 704.13
+              },
+              {
+                "price": 28,
+                "size": 16.98
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 23,
+                "size": 69.77
+              },
+              {
+                "price": 22,
+                "size": 73.79
+              },
+              {
+                "price": 21,
+                "size": 69.82
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 24,
+                "size": 2.71
+              },
+              {
+                "price": 25,
+                "size": 143.08
+              },
+              {
+                "price": 26,
+                "size": 57.91
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 5.798,
+          "removalDate": null,
+          "lastPriceTraded": 24,
+          "handicap": 0,
+          "totalMatched": 16155.67,
+          "selectionId": 17896419
+        },
+        {
+          "status": "ACTIVE",
+          "ex": {
+            "tradedVolume": [
+              {
+                "price": 3.9,
+                "size": 292.12
+              },
+              {
+                "price": 3.95,
+                "size": 1979.36
+              },
+              {
+                "price": 4,
+                "size": 6906.94
+              },
+              {
+                "price": 4.1,
+                "size": 11122.68
+              },
+              {
+                "price": 4.2,
+                "size": 8352.68
+              },
+              {
+                "price": 4.29,
+                "size": 186.42
+              },
+              {
+                "price": 4.3,
+                "size": 7513.92
+              },
+              {
+                "price": 4.4,
+                "size": 10539.39
+              },
+              {
+                "price": 4.5,
+                "size": 17617.5
+              },
+              {
+                "price": 4.57,
+                "size": 9.44
+              },
+              {
+                "price": 4.6,
+                "size": 18198.79
+              },
+              {
+                "price": 4.7,
+                "size": 20776.27
+              },
+              {
+                "price": 4.8,
+                "size": 22017.78
+              },
+              {
+                "price": 4.86,
+                "size": 4
+              },
+              {
+                "price": 4.9,
+                "size": 6045.69
+              },
+              {
+                "price": 5,
+                "size": 2206.74
+              },
+              {
+                "price": 5.1,
+                "size": 1684.69
+              },
+              {
+                "price": 5.14,
+                "size": 40.78
+              },
+              {
+                "price": 5.2,
+                "size": 1182.62
+              },
+              {
+                "price": 5.29,
+                "size": 18.72
+              },
+              {
+                "price": 5.3,
+                "size": 1009.84
+              },
+              {
+                "price": 5.4,
+                "size": 840.92
+              },
+              {
+                "price": 5.43,
+                "size": 10.74
+              },
+              {
+                "price": 5.5,
+                "size": 437.28
+              },
+              {
+                "price": 5.57,
+                "size": 26.14
+              },
+              {
+                "price": 5.6,
+                "size": 101.97
+              },
+              {
+                "price": 5.7,
+                "size": 370.66
+              },
+              {
+                "price": 5.71,
+                "size": 5.63
+              },
+              {
+                "price": 5.8,
+                "size": 216.25
+              },
+              {
+                "price": 5.9,
+                "size": 214.72
+              },
+              {
+                "price": 6,
+                "size": 119.87
+              },
+              {
+                "price": 6.4,
+                "size": 4
+              }
+            ],
+            "availableToBack": [
+              {
+                "price": 4.4,
+                "size": 605.59
+              },
+              {
+                "price": 4.3,
+                "size": 188.5
+              },
+              {
+                "price": 4.2,
+                "size": 509.56
+              }
+            ],
+            "availableToLay": [
+              {
+                "price": 4.6,
+                "size": 499.25
+              },
+              {
+                "price": 4.7,
+                "size": 309.12
+              },
+              {
+                "price": 4.8,
+                "size": 250.69
+              }
+            ]
+          },
+          "sp": {
+            "nearPrice": null,
+            "farPrice": null,
+            "backStakeTaken": [],
+            "layLiabilityTaken": [],
+            "actualSP": null
+          },
+          "adjustmentFactor": 19.328,
+          "removalDate": null,
+          "lastPriceTraded": 4.5,
+          "handicap": 0,
+          "totalMatched": 140054.55,
+          "selectionId": 12949183
+        }
+      ],
+      "publishTime": 1529504541104,
+      "priceLadderDefinition": {
+        "type": "CLASSIC"
+      },
+      "keyLineDescription": null
+    }
+  ],
+  [
+    {
+      "currentOrders": [
+        {
+          "averagePriceMatched": 0.0,
+          "betId": "128808648422",
+          "bspLiability": null,
+          "handicap": 0,
+          "marketId": "1.144787428",
+          "matchedDate": null,
+          "orderType": "LIMIT",
+          "persistenceType": "LAPSE",
+          "placedDate": "2018-06-20T14:21:59.000000Z",
+          "priceSize": {
+            "price": 1000,
+            "size": 2
+          },
+          "regulatorCode": "REG_LGA",
+          "selectionId": 12949183,
+          "side": "BACK",
+          "sizeCancelled": 0,
+          "sizeLapsed": 0,
+          "sizeMatched": 0,
+          "sizeRemaining": 2,
+          "sizeVoided": 0,
+          "status": "EXECUTABLE",
+          "customerStrategyRef": "",
+          "customerOrderRef": ""
+        }
+      ],
+      "moreAvailable": false
+    },
+    {
+      "currentOrders": [
+        {
+          "averagePriceMatched": 0.0,
+          "betId": "128808574636",
+          "bspLiability": null,
+          "handicap": 0,
+          "marketId": "1.144813922",
+          "matchedDate": null,
+          "orderType": "LIMIT",
+          "persistenceType": "LAPSE",
+          "placedDate": "2018-06-20T14:21:03.000000Z",
+          "priceSize": {
+            "price": 1.01,
+            "size": 2
+          },
+          "regulatorCode": "REG_LGA",
+          "selectionId": 9052306,
+          "side": "LAY",
+          "sizeCancelled": 0,
+          "sizeLapsed": 0,
+          "sizeMatched": 0,
+          "sizeRemaining": 2,
+          "sizeVoided": 0,
+          "status": "EXECUTABLE",
+          "customerStrategyRef": "",
+          "customerOrderRef": ""
+        }
+      ],
+      "moreAvailable": false
+    }
+  ],
+  [
+    {
+      "marketId": "1.144787428",
+      "marketName": "1m Hcap",
+      "marketStartTime": "2018-06-20T14:20:00.000Z",
+      "totalMatched": 161329.67,
+      "runners": [
+        {
+          "selectionId": 13453535,
+          "runnerName": "Party Fears Too",
+          "handicap": 0.0,
+          "sortPriority": 1
+        },
+        {
+          "selectionId": 12949183,
+          "runnerName": "Dontgiveuponbob",
+          "handicap": 0.0,
+          "sortPriority": 2
+        },
+        {
+          "selectionId": 13120666,
+          "runnerName": "Song of Summer",
+          "handicap": 0.0,
+          "sortPriority": 3
+        },
+        {
+          "selectionId": 12966063,
+          "runnerName": "Havana Star",
+          "handicap": 0.0,
+          "sortPriority": 4
+        },
+        {
+          "selectionId": 13215810,
+          "runnerName": "Kylie Rules",
+          "handicap": 0.0,
+          "sortPriority": 5
+        },
+        {
+          "selectionId": 17896419,
+          "runnerName": "Zig Zag Zyggy",
+          "handicap": 0.0,
+          "sortPriority": 6
+        },
+        {
+          "selectionId": 16117346,
+          "runnerName": "Alabanza",
+          "handicap": 0.0,
+          "sortPriority": 7
+        },
+        {
+          "selectionId": 13187675,
+          "runnerName": "Cuillin Hills",
+          "handicap": 0.0,
+          "sortPriority": 8
+        },
+        {
+          "selectionId": 5624096,
+          "runnerName": "Snowdon",
+          "handicap": 0.0,
+          "sortPriority": 9
+        }
+      ]
+    },
+    {
+      "marketId": "1.144813922",
+      "marketName": "2m Hrd",
+      "marketStartTime": "2018-06-20T14:30:00.000Z",
+      "totalMatched": 36065.21,
+      "runners": [
+        {
+          "selectionId": 9052306,
+          "runnerName": "Wishfull Dreaming",
+          "handicap": 0.0,
+          "sortPriority": 1
+        },
+        {
+          "selectionId": 10507985,
+          "runnerName": "Old Salt",
+          "handicap": 0.0,
+          "sortPriority": 2
+        },
+        {
+          "selectionId": 15684283,
+          "runnerName": "Miss Adventure",
+          "handicap": 0.0,
+          "sortPriority": 3
+        },
+        {
+          "selectionId": 8296065,
+          "runnerName": "Trafalgar Rock",
+          "handicap": 0.0,
+          "sortPriority": 4
+        },
+        {
+          "selectionId": 10316470,
+          "runnerName": "Solway Lark",
+          "handicap": 0.0,
+          "sortPriority": 5
+        }
+      ]
+    }
+  ]
+]

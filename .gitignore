@@ -3,3 +3,8 @@ __pycache__
 .env
 *.db
 *.log
+venv
+.idea
+*.swp
+.pytest_cache
+bfg.egg-info
