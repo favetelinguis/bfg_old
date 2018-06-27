@@ -6,11 +6,12 @@ from collections import namedtuple
 import betfairlightweight
 from betfairlightweight.filters import (
     limit_order,
+    cancel_instruction,
     place_instruction,
     market_filter,
     streaming_market_filter,
     streaming_market_data_filter,
-)
+    replace_instruction)
 
 from datetime import date, timedelta
 
@@ -152,8 +153,7 @@ class BetfairAccessLayer:
         self._order_stream.stop()
 
     def get_todays_racecard(self):
-        # TODO put the request on  a separate thread and return an Observable
-        # maybe something like Observable.just(1).map(request check for error and raise error).retry(3) retry 3 times if we get error how to not block?
+        # TODO there is support for lightweight change that
         card = self._client.betting.list_market_catalogue(
             filter=RACE_CARD_MARKET_FILTER,
             market_projection=[  # 'COMPETITION',
@@ -165,13 +165,13 @@ class BetfairAccessLayer:
                 # 'RUNNER_METADATA'
             ],
             sort='FIRST_TO_START',
-            max_results=2
+            max_results=1
         )
         assert card, 'The racecard today is empty'
         return card
 
     # Order examples from https://github.com/liampauling/betfair/blob/master/examples/exampletwo.py
-    def place_orders(self, size, price, market_id, selection_id, side, ref):
+    def place_order(self, size, price, market_id, selection_id, side, ref):
         order = limit_order(
             size=size,
             price=price,
@@ -191,35 +191,82 @@ class BetfairAccessLayer:
         # TODO check order.status
         return place_orders
 
-    def update_order(self, order_id):
-        instruction = filters.update_instruction(
-            bet_id=bet_id,
-            new_persistence_type='PERSIST'
-        )
-        update_order = trading.betting.update_orders(
-            market_id=market_id,
-            instructions=[instruction]
-        )
-
-    def replace_order(self, bet_id):
-        instruction = filters.replace_instruction(
-            bet_id=bet_id,
-            new_price=1.10
-        )
-        replace_order = trading.betting.replace_orders(
-            market_id=market_id,
-            instructions=[instruction]
-        )
-
-    def cancel_order(self, bet_id):
-        instruction = filters.cancel_instruction(
-            bet_id=bet_id,
-            size_reduction=2.00
-        )
-        cancel_order = trading.betting.cancel_orders(
-            market_id=market_id,
-            instructions=[instruction]
-        )
+    # def replace_order(self, bet_id):
+    #     instruction = replace_instruction(
+    #         bet_id=bet_id,
+    #         new_price=1.10
+    #     )
+    #     replace_order = client.replace_orders(
+    #         market_id=market_id,
+    #         instructions=[instruction]
+    #     )
+    #
+    # def cancel_order(self, market_id=None, bet_id=None):
+    #     """
+    #     Cancel all bets
+    #     OR cancel all bets on a market
+    #     OR fully or partially cancel particular orders on a market.
+    #     Only LIMIT orders can be cancelled or partially
+    #     cancelled once placed.
+    #     :param market_id:
+    #     :param bet_id:
+    #     :return:
+    #     """
+    #     instruction = cancel_instruction(
+    #         bet_id=bet_id,
+    #         size_reduction=2.00
+    #     )
+    #     cancel_order = self.client.cancel_orders(
+    #         market_id=market_id,
+    #         instructions=[instruction]
+    #     )
+    #     return cancel_order
+    #
+    # def free_bet(self):
+    #     #TODO bet same amount as i used to enter trade.
+    #     # Make a small profit if hourse wins but loose nothing if hourse looses
+    #     # This is faster to use and only green up before we goes inplay
+    #     pass
+    #
+    #
+    # def hedge(self):
+    #     """
+    #     Used as a stop-loss if you only have one
+    #     :return:
+    #     """
+    #     if backReturn > layLiability:
+    #         return self.place_order(hedgeStake, layPrice,,,'LAY')
+    #     elif layLiability > backReturn:
+    #         return self.place_order(hedgeStake, backPrice,,,'BACK')
+    #
+    # def sub_2_bet(self, side, preferredSize, preferredPrice):
+    #     """
+    #     Used for placing bets that are less then 2 by using the following procedure:
+    #     1. Place a 2 bet away from the spread. At 1000 for back or 1.01 for lay
+    #     2. Cancel part of the 2 bet leaving the amount I want
+    #     3. Replace the price of the sub 2 bet with the price
+    #     :param self:
+    #     :return:
+    #     """
+    #     price = None
+    #     if side == 'BACK':
+    #         price = 1000
+    #     elif side == 'LAY':
+    #         price = 1.01
+    #     place_betId = self.place_order(2, price,,,side)
+    #     cancel_betId = self.cancel_order(place_betId, 2-preferredSize)
+    #     replace_betId = self.replace_orders(cancel_betId, preferredPrice)
+    #
+    # def greenup(self):
+    #     """
+    #     Hedges all selections that needs to in a market
+    #     The third option, which is the essence of trading,
+    #     is to lay the selection at a lower price than I backed
+    #     it at — but with a slightly higher stake, thus guaranteeing
+    #     a profit no matter which horse wins.
+    #     :return:
+    #     """
+    #     pass
 
 
 betfair_access_layer = BetfairAccessLayer()

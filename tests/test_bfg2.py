@@ -1,5 +1,6 @@
 import json
 import time
+from datetime import datetime, timedelta
 
 from pyrsistent import freeze, thaw, v, m, pvector, pmap, pdeque, get_in
 import pytest
@@ -12,7 +13,9 @@ from bfg import (
     sliding_window_updater,
     cache,
     update_chache,
-    update_derived_values
+    update_derived_values,
+    filling_the_hole_agent,
+    take_action
 )
 
 on_next = ReactiveTest.on_next
@@ -56,15 +59,37 @@ def test_derived_values(state):
     assert get_in(['runners', 18484288, 'backPrice'], new_state) == 3.65
     assert get_in(['runners', 18484288, 'layPrice'], new_state) == 3.7
 
+def test_strategy(state):
+    result = filling_the_hole_agent(state)
+    a = 3
+
+def test_take_action(decision):
+    take_action(decision)
+    g = 4
+
+@pytest.fixture(scope='session')
+def decision(state):
+    type = 'STOP'
+    data = {
+        'size': 2,
+        'price': 1.01,
+        'market_id': state['marketId'],
+        'selection_id': 18484288,
+        'side': 'LAY',
+        'ref': 'stop'
+    }
+
+    return pmap({'type': type, 'data': data})
 
 @pytest.fixture(scope='session')
 def state():
+    market_start = datetime.utcnow() + timedelta(minutes=15)
     return freeze(
         {'marketId': "1.144787413",
-         'status': None,
-         'inplay': None,
+         'status': 'OPEN',
+         'inplay': False,
          'marketName': None,
-         'marketStartTime': None,
+         'marketStartTime': market_start.strftime("%Y-%m-%dT%H:%M:%S.%fZ"),
          'totalMatched': None,
          'runners': {
              18484288: {'selectionId': 18484288,

@@ -8,9 +8,10 @@ from pyrsistent import freeze, thaw, v, m, pvector, pmap, pdeque, get_in
 
 from rx import Observable
 from rx.concurrency import ThreadPoolScheduler
-from rx.disposables import CompositeDisposable
+from rx.core import Disposable
+from rx.disposables import CompositeDisposable, BooleanDisposable
 
-from . import config, betfair_access_layer, cache_emitter
+from . import config, betfair_access_layer, cache_emitter, strategy, take_action
 
 # Setup config
 config = config[os.getenv('BFG_CONFIG') or 'default']
@@ -97,8 +98,9 @@ if __name__ == '__main__':
     disposables = None
     try:
         betfair_access_layer.login(config.BETFAIR_USER, config.BETFAIR_PASSWORD, config.BETFAIR_APP_KEY)
-        strategy_disposable = Observable.just(1).subscribe()
-        gui_disposable = cache_emitter() \
+        cache = cache_emitter()
+        strategy_disposable = cache.let(strategy).subscribe(take_action, log.error)
+        gui_disposable = cache \
             .observe_on(gui_worker)\
             .scan(lambda agg, new: agg.transform([new['marketId']], new), seed=m()) \
             .map(render) \
